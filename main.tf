@@ -15,5 +15,5 @@ resource "aws_ec2_fleet" "scalr" {
     total_target_capacity        = var.total_capacity
   }
   
-  terminate_instace = "true"
+  terminate_instances = "true"
 }
