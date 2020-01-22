@@ -6,7 +6,7 @@ resource "aws_ec2_fleet" "scalr" {
   launch_template_config {
     launch_template_specification {
       launch_template_id = "lt-0052cb2ad0565b97c"
-      version            = "1"
+      version            = "2"
     }
   }
 
