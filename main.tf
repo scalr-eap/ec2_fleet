@@ -14,4 +14,6 @@ resource "aws_ec2_fleet" "scalr" {
     default_target_capacity_type = var.capacity_type
     total_target_capacity        = var.total_capacity
   }
+  
+  terminate_instace = "true"
 }
