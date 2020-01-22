@@ -1,1 +1,1 @@
-# ec2_fleet
+# ec2_launch_template
