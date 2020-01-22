@@ -1,3 +1,7 @@
+provider "aws" {
+  region     = "us-east-1"
+}
+
 resource "aws_ec2_fleet" "scalr" {
   launch_template_config {
     launch_template_specification {
